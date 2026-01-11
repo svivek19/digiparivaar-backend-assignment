@@ -45,3 +45,14 @@ Assumptions
 - JWT used for auth
 - Simple admin token used
 ```
+
+### Postman Collection
+
+A Postman collection is included in the repository to test all APIs:
+
+- OTP authentication
+- Lesson APIs
+- Progress tracking (protected routes)
+- Admin lesson creation
+
+File: DigiParivaar-Backend-Postman-Collection.json
