@@ -12,7 +12,7 @@ exports.requestOTP = async (req, res) => {
   const otp = generateOTP();
   saveOTP(phone, otp);
 
-  return res.json({ otp }); // mocked OTP
+  return res.json({ otp });
 };
 
 exports.verifyOTP = async (req, res) => {
